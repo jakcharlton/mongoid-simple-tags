@@ -1,6 +1,6 @@
 source "http://rubygems.org"
-gem 'mongoid', '2.2.1'
-gem 'bson_ext', '>= 1.4.0'
+gem "mongoid", "~> 2.4"
+gem "bson_ext", "~> 1.5"
 
 group :development do
   gem "bundler", "~> 1.0.0"
